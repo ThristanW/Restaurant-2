@@ -1,0 +1,45 @@
+body {
+    font-family: Tahoma, sans-serif; /* font */
+    font-weight: 300;
+    font-size: x-large; 
+    background: linear-gradient(darkgrey 60%, lightgray 80%);/* gradient bg color */
+    color: black; 
+    margin: 0; 
+    padding: 30px;
+}
+h1 {
+    text-align: center; /* aligns the title to the center */
+    color: darkgreen; 
+}
+h3 {
+    text-align: center; /* aligns the desc to the middle */
+    color: #555; 
+}
+p {
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    line-height: 1.6; /* Adds spacing between the paragraphs */
+
+}
+a {
+    text-decoration: none; /* removing underline */
+    color: #007BFF; 
+}
+a:hover {
+    text-decoration: underline; /* underlines when hovering over link */
+}
+img {
+    display: block; /* turns image into block element */
+    margin: 0 auto; /* Centers image */
+    border-radius: 10px; /* Rounds corners of image */
+}
+ol {
+    margin-left: 20px; 
+}
+.menu-item {
+    margin: 10px 0; /* Adding space between items in menu */
+}
+input[type="radio"] {
+    margin: 10px; /* spacing around radio buttons */
+}
